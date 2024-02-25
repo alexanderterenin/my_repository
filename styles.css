@@ -1,0 +1,138 @@
+.resume {
+  position: relative;
+  left: 50px; /* переместить элемент на 50 пикселей влево */
+  font-size: 20px; /* размер шрифта 20 пикселей */
+  top: 100px;
+}
+
+.resume-word {
+  text-align: center; /* Центрирование текста по горизонтали */
+  position: relative;
+  bottom: 100px;
+}
+
+.resume-body {
+  position: relative;
+  top: 50px;
+}
+
+.resume-word p:nth-of-type(2),
+.resume-word h4 {
+  display: inline; /* Устанавливаем строчный блок для второго параграфа и тега h4 */
+}
+
+.my-photo-and-data img {
+  width: 300px; /* ширина картинки в пикселях */
+  height: 300px; /* высота картинки в пикселях */
+  border: 2px solid black; /* 2 пикселя ширина рамки, цвет черный */
+  position: relative;
+  top: 10px; /* опустить вниз на 10 пикселей */
+}
+
+.my-data p {
+  font-weight: bold;
+  position: relative;
+  left: 380px;
+  font-size: 25px;
+  bottom: 160px;
+}
+
+.education {
+  position: relative;
+  bottom: 170px;
+}
+
+.education p:nth-child(odd) {
+  font-weight: bold;
+}
+
+.education p:nth-child(1) {
+  font-size: 25px;
+}
+
+.education p:nth-child(3),
+.education p:nth-child(4) {
+  display: inline; /* Устанавливаем строчный блок для третьего и четвертого параграфов */
+}
+
+.experience {
+  position: relative;
+  bottom: 170px;
+}
+
+.experience p:first-child {
+  font-weight: bold;
+}
+
+.work-in-company {
+  position: relative;
+  left: 400px;
+  bottom: 130px;
+}
+
+.work-in-company p:nth-child(3) {
+  display: inline;
+  font-weight: bold;
+  padding: 5px 5px;
+  background-color: purple;
+  border-radius: 10px;
+  border: 2px solid purple;
+  color: white;
+}
+
+
+.work-in-company p:first-child {
+  display: inline-block;
+  padding: 5px 5px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+}
+
+.work-in-company p:nth-child(4) {
+  font-weight: bold;
+}
+
+.skills {
+  position: relative;
+  bottom: 235px;
+}
+
+.skills p {
+  font-weight: bold;
+}
+
+.hard-skills p {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 2px solid red;
+  border-radius: 10px;
+  margin: 5px;
+  background-color: red;
+  color: white;
+}
+
+.foreign-languages p {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 2px solid green;
+  border-radius: 10px;
+  margin: 5px;
+  background-color: green;
+  color: white;
+}
+
+.about-me {
+  position: relative;
+  bottom: 235px;
+}
+
+.about-me p:first-child {
+  font-weight: bold;
+}
+
+.link-github {
+  position: relative;
+  bottom: 220px;
+}
